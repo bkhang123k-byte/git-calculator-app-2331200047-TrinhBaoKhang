@@ -28,7 +28,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest] # Define the OSes to build
 
-    runs-on: ${{ matrix.os }}# Use the OS from the matrix steps:
+    runs-on: ${{ matrix.os }} # Use the OS from the matrix steps:
 
     steps:
       - uses: actions/checkout@v4
